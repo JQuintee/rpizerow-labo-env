@@ -1,0 +1,30 @@
+from gpizero import LED
+from time import sleep
+
+ledVerde = LED(13)
+ledRojo = LED(19)
+ledAzul = LED(26)
+
+while True:
+	sleep(0.25)
+	ledVerde.on()
+	sleep(0.25)
+	ledVerde.off()
+	ledAzul.on()
+	sleep(0.25)
+	ledVerde.on()
+	sleep(0.25)
+	ledVerde.off()
+	ledAzul.off()
+	ledRojo.on()
+	sleep(0.25)
+	ledVerde.on()
+	sleep(0.25)
+	ledVerde.off()
+	ledAzul.on()
+	sleep.(0.25)
+	ledVerde.on()
+	sleep(0.25)
+	ledVerde.off()
+	ledAzul.off()
+	ledRojo.off()
